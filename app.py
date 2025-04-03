@@ -35,7 +35,7 @@ def ask_resume(question):
             model='command',
             prompt=prompt,
             max_tokens=300,
-            temperature=0.3,
+            temperature=0.1,
             k=0,
             stop_sequences=[],
             return_likelihoods='NONE'
